@@ -1,0 +1,97 @@
+.left {
+    float: left;
+}
+
+.notification {
+    margin-top: 30px;
+    color: #8993ad;
+}
+
+.todo_list {
+    margin-top: 30px;
+}
+
+.todo {
+    margin-bottom: 20px;
+    width: 470px;
+    background-color: #fff; 
+}
+
+.todo div {
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+}
+.todo h3 {
+    display: inline-block;
+    padding: 18px 22px 16px 20px;
+    font-size: 16px;
+}
+.delete {
+    width: 9px;
+    height: 9px;
+    background: url("images/clear-button.png") no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.select {
+    position: absolute;
+    right: 5px;
+    top: 24px;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: url("images/arrow.png") no-repeat;
+    cursor: pointer;
+}
+
+.text{
+    padding: 10px 0 60px 20px;
+    font-size: 14px;
+}
+
+.right {
+    float: right;
+}
+
+.form {
+    padding-bottom: 40px;
+    margin-top: 30px;
+    width: 470px;
+    background-color: #fff;
+}
+
+.form p {
+    padding-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #8993ad;
+}
+
+.input {
+    margin-left: 40px;
+    width: 390px;
+    height: 45px;
+    border: solid 1px #ebebeb;
+    background-color: #fcfcfc;
+}
+
+.textarea {
+    margin-left: 40px;
+    width: 390px;
+    height: 230px;
+    border: 1px solid #ebebeb;
+    background-color: #f9f9f9;
+    resize: none;
+}
+
+.button {
+    margin-top: 30px;
+    margin-left: 40px;
+    display: block;
+    width: 224px;
+    height: 55px;
+    background-color: #2174fd;
+    border: none;
+    color: #fff;
+}
